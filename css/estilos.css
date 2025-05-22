@@ -106,29 +106,44 @@ body{
 /*Cajas fin*/
 
 /*cajas about inicio*/
-.about{
+.about {
     background-color: white;
-    width: auto;
+    padding: 60px 20px;
+    text-align: center;
 }
 
-.contenedor-about{
+.contenedor-about {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
 }
 
 .cajas-about {
     display: flex;
-    justify-content: space-between; 
-    align-items: flex-start;
-    padding: 0 80px;
-    gap: 60px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.cajas-about .caja {
+    flex: 1 1 250px;
+    max-width: 300px;
 }
 
 .img-about {
-    width: 100%;
+    width: 100px;
     height: auto;
-    display: block;
+    margin-bottom: 15px;
+}
+
+.titulo-about {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.parrafo-about {
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
 /*cajas about fin*/
 
@@ -142,39 +157,39 @@ body{
 .menciones-texto{
     text-align: center;
     font-size: 30px;
+    margin: 100px;
 }
 
 .contenedor-menciones{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
+    justify-content: center;
+    gap: 30px;
 }
 
 .card-menciones{
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 29px 0px rgba(0,0,0,0.75);
     overflow: hidden;
     text-align: left;
-    width: 220px;
+    width: 400px;
 }
 
 .card-menciones img{
     width: 100%;
-    height: 110px;
+    height: 180px;
     object-fit: cover;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .info{
-    padding: 10px;
+    padding: 15px;
 }
 
 .info h3{
-    margin: 0 0 10px;
+    margin: 0 0 5px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .info p{
@@ -244,3 +259,4 @@ body{
         text-align: center;
     }
 }
+/*Responsive fin*/
