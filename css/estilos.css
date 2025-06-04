@@ -56,16 +56,19 @@ body{
 /*Slogan Fin*/
 
 /*Cajas Inicio*/
-.cajas{
-    background-color: #e0e1e2;
+.cajas {
+    background-image: url(../images/curve.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 15px 10px 300px;
     height: 100%;
-    padding: 15px 10px 90px;
 }
-
 .contenedor-cajas{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 40px;
     align-self: center;
     gap: 100px;
 }
@@ -149,7 +152,7 @@ body{
 
 /*Menciones inicio*/
 .menciones{
-    background-color: #ebebea9a;
+    background-color: white;
     padding: 40px 20px;
 }
 
