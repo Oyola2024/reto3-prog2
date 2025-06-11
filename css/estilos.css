@@ -1,8 +1,13 @@
 body{
+    height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto Condensed", sans-serif;
+}
+
+main{
+    flex: 1;
 }
 
 /*Inicio Header*/
@@ -158,7 +163,6 @@ body{
 
 .menciones hr{
     margin: 0 auto 30px;
-    width: 100%;
 
 }
 
@@ -222,6 +226,15 @@ body{
     flex-direction: row;
 }
 /*Fin del footer*/
+
+/*comienzo layout*/
+.layout{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*fin layout*/
 
 /*Responsive inico*/
 @media (max-width: 600px) {
